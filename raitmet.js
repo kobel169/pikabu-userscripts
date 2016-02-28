@@ -12,8 +12,7 @@
 'use strict';
 
 $(".b-comment__user").children("a").children("span").each(function(){
-//  console.log($(this).html());
-  $(this).parent().before('<a class="i-sprite--comments__rating-up banhammer" data-rating="up" data-user="'+ $(this).html() +'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a class="i-sprite--comments__rating-down banhammer" data-rating="down" data-user="'+ $(this).html() +'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>');
+  $(this).parent().before('<a class="i-sprite--comments__rating-up-active banhammer" data-rating="up" data-user="'+ $(this).html() +'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a class="i-sprite--comments__rating-down-active banhammer" data-rating="down" data-user="'+ $(this).html() +'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>');
 })
 
 $(".banhammer").click(function(){
