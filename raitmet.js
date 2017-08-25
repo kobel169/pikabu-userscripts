@@ -4,7 +4,7 @@
 // @version      0.4.1
 // @description  Минусы и плюсы пачками.
 // @author       kobl169
-// @match        http://pikabu.ru/*
+// @match        https://pikabu.ru/*
 // @grant        none
 // ==/UserScript==
 /* jshint -W097 */
